@@ -1,5 +1,6 @@
 $headercolor:Magenta;
 $hovercolor:Gold;
+$bordersize: 10px;
 
 @mixin header{
     background-color:black;
@@ -11,9 +12,10 @@ $hovercolor:Gold;
 }
 
 @mixin common{
-    color:Magenta;
+    color:$headercolor;
     background-color:black;
     border-style: ridge;
+    border-width: $bordersize;
     text-align: center;
     width: 15%;
     margin-left: auto;

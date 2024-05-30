@@ -32,6 +32,7 @@ div {
   color: Magenta;
   background-color: black;
   border-style: ridge;
+  border-width: 10px;
   text-align: center;
   width: 15%;
   margin-left: auto;
